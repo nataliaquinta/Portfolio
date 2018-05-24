@@ -4,49 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 body,
-html {
-  width: 100%;
-  height: 100%; }
-
-body {
-  font-family: 'Source Sans Pro'; }
-
-.btn-xl {
-  padding: 1.25rem 2.5rem; }
-
-.content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem; }
-
-.content-section-heading h2 {
-  font-size: 3rem; }
-
-.content-section-heading h3 {
-  font-size: 1rem;
-  text-transform: uppercase; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700; }
-
-.text-faded {
-  color: rgba(255, 255, 255, 0.7); }
-
-/* Map */
-.map {
-  height: 30rem; }
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%; } }
-
-.map iframe {
-  pointer-events: none; }
-
+html {width: 100%;height: 100%;}
+body {font-family: 'Source Sans Pro';}
+.btn-xl {padding: 1.25rem 2.5rem;}
+.content-section {padding-top: 7.5rem;padding-bottom: 7.5rem;}
+.content-section-heading h2 {font-size: 3rem;}
+.content-section-heading h3 {font-size: 1rem;text-transform: uppercase;}
+h1,h2,h3,h4,h5,h6 {font-weight: 700;}
+.text-faded {color: rgba(255, 255, 255, 0.7);}
+.map {height: 30rem;}
+@media (max-width: 992px) {.map {height: 75%;}}
+.map iframe {pointer-events: none;}
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -64,7 +32,6 @@ h6 {
     background: #343a40; }
   .scroll-to-top i {
     font-weight: 800; }
-
 .masthead {
   min-height: 30rem;
   position: relative;
